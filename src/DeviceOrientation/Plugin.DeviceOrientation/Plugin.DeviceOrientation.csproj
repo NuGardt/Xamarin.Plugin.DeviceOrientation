@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Plugin.DeviceOrientation</RootNamespace>
     <AssemblyName>Plugin.DeviceOrientation</AssemblyName>
   </PropertyGroup>
@@ -12,10 +12,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Plugin.DeviceOrientation.Abstractions\Plugin.DeviceOrientation.Abstractions.csproj" />
+    <Folder Include="Properties\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <ProjectReference Include="..\Plugin.DeviceOrientation.Abstractions\Plugin.DeviceOrientation.Abstractions.csproj" />
   </ItemGroup>
 </Project>
